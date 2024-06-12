@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercice</title>
+  </head>
+  <body>
+    <h1 class="text-transform: uppercase text-6xl mt-8 text-center mb-40">
+      guess the number
+    </h1>
+
+    <div class="max-w-md mx-auto" id="app">
+      <p class="font-medium text-base">
+        I generated a number between 0 and 500, try do find it 😁
+      </p>
+      <p class="text-right my-8">Score : <span id="score">0</span></p>
+
+      <label class="text-sm block" for="">Your guess </label>
+      <div class="flex items-center">
+        <input type="text" placeholder="55" />
+        <button class="ml-2">Submit</button>
+      </div>
+      <p class="text-sm font-normal text-slate-500">
+        Entering your guessing number
+      </p>
+      <p class="my-8" id="resultat">
+        <span id="indicator">🟢</span> My guess is below
+        <span id="guess">250</span>
+      </p>
+
+      <input class="text-center" type="text" value="X" />
+      <div class="flex justify-between mt-2">
+        <p class="">0</p>
+        <p class="">500</p>
+      </div>
+    </div>
+    <div class="flex justify-center mt-8" id="replay">
+      <button class="">Replay</button>
+    </div>
+    <script type="module" src="/exo.js"></script>
+  </body>
+</html>
