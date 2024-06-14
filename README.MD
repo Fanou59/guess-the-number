@@ -12,6 +12,7 @@ Bienvenue dans notre jeu de devinette ! Le but du jeu est de trouver un nombre a
 ## Prérequis
 
 Pour exécuter ce jeu, vous aurez besoin d'un navigateur web moderne avec JavaScript activé.
+Tu peux retrouver le projet en prod ici : https://guess-the-number-umber.vercel.app/
 
 ## Installation
 
