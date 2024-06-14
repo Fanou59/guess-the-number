@@ -10,7 +10,6 @@ const replay = document.querySelector("#replay");
 
 //générer un nombre entier aléatoire entre 0 et 500 (on met 501 pour avoir le 500 inclu)
 const randomNumber = Math.floor(Math.random() * 501);
-console.log(randomNumber);
 
 //au click de Submit lancement du jeu
 submit.addEventListener("click", (e) => {
