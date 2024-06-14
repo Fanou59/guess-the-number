@@ -13,6 +13,17 @@ const randomNumber = Math.floor(Math.random() * 501);
 
 //au click de Submit lancement du jeu
 submit.addEventListener("click", (e) => {
+  if (
+    inputGuess.value === "" ||
+    isNaN(inputGuess.value) ||
+    inputGuess.value > 500 ||
+    inputGuess.value < 0
+  ) {
+    alert(
+      "Your number must between 0 and 500 AND must be a number. Try again :)"
+    );
+    location.reload();
+  }
   e.preventDefault;
   const numberGuess = Number(inputGuess.value);
 
