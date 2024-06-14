@@ -59,8 +59,7 @@ function indicateJaugeHelper(number, largeurJauge, indicateurIcone) {
   const positionHelper = (number / 500) * largeurJauge;
   const indicateur = document.createElement("span");
   indicateur.textContent = indicateurIcone;
-  indicateur.className =
-    "absolute top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none";
+  indicateur.className = "indicateur";
   indicateur.style.left = `${positionHelper}px`;
   jaugeContainer.appendChild(indicateur);
 }
