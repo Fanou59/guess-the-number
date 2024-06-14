@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -24,12 +24,10 @@
       <p class="text-sm font-normal text-slate-500">
         Entering your guessing number
       </p>
-      <p class="my-8" id="resultat">
-        <span id="indicator">🟢</span> My guess is below
-        <span id="guess">250</span>
-      </p>
-
-      <input class="text-center" type="text" value="X" />
+      <p class="my-8" id="resultat">🟢 My guess is below 250</p>
+      <div class="relative" id="jaugecontainer">
+        <input type="text" id="jauge" />
+      </div>
       <div class="flex justify-between mt-2">
         <p class="">0</p>
         <p class="">500</p>
